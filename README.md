@@ -13,6 +13,7 @@ FastLoop( someArray( LBound( someArray ), UBound( someArray ) )
 
 Here is an example FEMAP BASIC code snippet you can use to run FastLoop-DLL. Please ensure the DLL is in the same directory as this script:
 
+```
 Declare Function FastLoop Lib _
 MacroDir + "FastLoop.dll" _
 (XYZ As Double, ub As Long) As Variant
@@ -42,3 +43,4 @@ Sub Main
 
 
 End Sub
+```
